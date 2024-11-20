@@ -1,6 +1,8 @@
 <template>
   <div>
+    <!-- ℹ️ accessibility (inform that a new navigation has taken place) -->
     <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <!--  ℹ️ auto generate views from /pages  -->
+    <NuxtPage />
   </div>
 </template>
