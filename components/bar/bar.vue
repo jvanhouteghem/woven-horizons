@@ -1,16 +1,16 @@
 <template>
   <div>
     <div class="bar-header">
-      <slot name="header"></slot> <!-- Slot nommé pour le header -->
+      <slot name="header"></slot>
     </div>
     <div class="bar-body">
-      <slot></slot> <!-- Slot par défaut -->
+      <slot></slot>
     </div>
   </div>
 </template>
 
 <script setup>
-// Aucun code ici pour le moment, mais tu peux gérer des propriétés ou des méthodes si nécessaire
+
 </script>
 
 <style scoped>
