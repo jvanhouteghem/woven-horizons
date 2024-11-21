@@ -8,4 +8,11 @@ export default defineNuxtConfig({
   css: [
     '~/styles/global.scss'
   ],
+  // content part
+  modules: ['@nuxt/content'],
+  content: {
+    highlight: {
+      theme: 'light-plus'
+    }
+  }
 })
