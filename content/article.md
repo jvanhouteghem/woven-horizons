@@ -1,10 +1,11 @@
 # Content Wind
+*Toast posted on October 6th, 2024 in Blog*
 
-Bienvenue sur cet article d'exemple avec du contenu varié, incluant des paragraphes, des titres, des images, des liens, des listes, des citations et du code.
+Bienvenue sur cet article d'exemple avec du contenu varié, incluant des paragraphes, des titres, des images, des liens, des listes, des citations et du code. ✨
 
 ## Introduction
 
-Voici un paragraphe d'introduction utilisant du texte **lorem ipsum** :
+Voici un paragraphe d'introduction utilisant du texte **lorem ipsum* :
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum dui non urna malesuada, a vehicula lorem egestas.
 
