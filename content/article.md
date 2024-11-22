@@ -1,4 +1,4 @@
-# Exemple d'Article - Lorem Ipsum
+# Content Wind
 
 Bienvenue sur cet article d'exemple avec du contenu varié, incluant des paragraphes, des titres, des images, des liens, des listes, des citations et du code.
 
