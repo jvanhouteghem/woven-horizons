@@ -16,15 +16,18 @@ const docPath = `${slug}`;
 <style lang="scss">
 
 .article-page-container {
-  background-color: #f9fafb;
+  // background-color: #f9fafb;
   padding: 40px;
 
   display: flex;
   justify-content: center;
 
+  background: url('/images/bg.png') no-repeat center center fixed;
+  background-size: cover;
+
   .article-container {
     max-width: 610px;
-    background-color: white;
+    background-color: #f9fafb;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     border-radius: 6px;
     padding: 40px;
