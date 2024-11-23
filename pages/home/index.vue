@@ -1,6 +1,8 @@
 <template>
 
-  <h1>hello</h1>
+  <div>
+    home content
+  </div>
 
 </template>
 

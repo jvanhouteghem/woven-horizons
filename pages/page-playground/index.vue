@@ -18,17 +18,17 @@
     <p>Bar default slot</p>
   </Bar>
 
-  <Hcf>
+<!--  <Hcf>
     <template v-slot:header>
       <h1>hcf slot</h1>
     </template>
-  </Hcf>
+  </Hcf>-->
 
 </template>
 
 <script setup>
   import Foo from './components/foo.vue';
-  import Hcf from "./layouts/hcf/hcf.vue";
+  /*import Hcf from "./layouts/hcf.vue";*/
 </script>
 
 <style scoped>
