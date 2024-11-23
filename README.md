@@ -73,3 +73,7 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+Credits:
+police: kurasan studio: https://www.1001fonts.com/antihero-font.html
+outline: https://app.photoroom.com/u/edit/73afe012-21c3-4bef-bdee-0c42c2e0081f?sourcePath=%2Fcreate
