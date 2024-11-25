@@ -25,7 +25,6 @@
 </template>
 
 <script setup>
-  import SectionBackground from "/pages/home/components/sections/section-background.vue";
   import SectionLanding from "/pages/home/components/sections/section-landing/section-landing.vue";
 </script>
 

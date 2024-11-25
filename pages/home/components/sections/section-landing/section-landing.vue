@@ -17,7 +17,8 @@
       </div>
 
       <div class="landing-action-start">
-        <ButtonCodropsWapasha />
+        <!-- <ButtonCodropsWapasha />-->
+        GET STARTED
       </div>
 
       <div class="rooster">
@@ -73,7 +74,20 @@ import ButtonCodropsWapasha from './pages/home/components/sections/section-landi
     }
 
     .landing-action-start {
+      background: url('/images/bg.png');
+      background-size: 1250px 1250px;
+      border: 2px solid #9f9f9f;;
+      padding: 15px;
+      width: -moz-fit-content;
+      width: fit-content;
+      background-position: 150px 1250px;
+      color: white;
+      border-radius: 6px;
 
+      font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-weight: bold;
+
+      filter: hue-rotate(401deg);
     }
 
     .rooster {
