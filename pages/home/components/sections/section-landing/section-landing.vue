@@ -37,7 +37,7 @@
 <style lang="scss">
 .section-landing {
   height: 100%;
-  background: url('/images/bg21.png') no-repeat center center;
+  background: url('/images/bg22.png') no-repeat center center;
   background-size: cover;
 
   .absolute-content {

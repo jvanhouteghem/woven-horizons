@@ -1,6 +1,6 @@
 <template>
 
-  <div class="section-screenshots">
+  <div :style="containerStyles" class="section-screenshots">
     <div class="screenshot-title">
       {{ title }}
     </div>
@@ -17,7 +17,8 @@
     title?: string;
     subTitle?: string;
     imgSrc?: string;
-    imgStyles?: Object
+    imgStyles?: Object;
+    containerStyles?: Object;
   }>()
 </script>
 
@@ -27,6 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 
     flex-direction: column;
     gap: 40px;
