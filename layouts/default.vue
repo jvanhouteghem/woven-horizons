@@ -5,6 +5,10 @@
     <div class="layout-default-header">
 
       <div class="header">
+        <div class="page-title">
+          <div class="page-title-label">Woven Horizons</div>
+          <!-- <img class="page-title-img" src="/images/sword-small.png" />-->
+        </div>
         <div class="inner-links">
           <div v-for="link in ['Home', 'Blog', 'FAQ']" class="link">
             {{link}}
@@ -45,6 +49,41 @@
 
         display: flex;
 
+        padding: 0 35px;
+
+        .page-title {
+          display: flex;
+          align-items: center;
+          width: 250px;
+
+          .page-title-label {
+            font-family: 'antihero';
+            font-size: 18px;
+            position: absolute;
+            z-index: 1;
+            $outline: 2px;
+            $outline-color: black;
+            text-shadow: -$outline -$outline 0 $outline-color, $outline -$outline 0 $outline-color, -$outline $outline 0 $outline-color, $outline $outline 0 $outline-color;
+          }
+
+          .page-title-img {
+            /*height: 158px;
+            position: absolute;
+            top: -21px;
+            rotate: -47deg;*/
+            /*height: 68px;
+            position: absolute;
+            top: -2px;
+            rotate: 42deg;
+            left: 113px;*/
+            height: 61px;
+            position: absolute;
+            top: 1px;
+            rotate: 1deg;
+            left: 124px;
+          }
+        }
+
         .inner-links {
           display: flex;
           justify-content: space-around;
@@ -69,8 +108,7 @@
     }
 
     .layout-default-content {
-      overflow: auto;
-      height: calc(100vh - $header-height);
+
     }
   }
 
