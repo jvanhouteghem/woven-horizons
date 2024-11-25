@@ -2,18 +2,23 @@
 
   <div class="section-screenshots">
     <div class="screenshot-title">
-      Unveil the shattered truth.
+      {{ title }}
     </div>
     <div class="screenshot-paragraph">
-      Dragged into a fractured reality, you face relentless trials in a rogue-lite adventure where every run shapes your legend. Battle otherworldly forces, adapt, and rise—or be lost to the echoes of a crumbling world.
+      {{subTitle}}
     </div>
-    <img class="screenshot-img" src="/images/Animation.gif" />
+    <img :style="imgStyles" class="screenshot-img" :src="imgSrc" />
   </div>
 
 </template>
 
-<script>
-
+<script setup lang="ts">
+  defineProps<{
+    title?: string;
+    subTitle?: string;
+    imgSrc?: string;
+    imgStyles?: Object
+  }>()
 </script>
 
 <style lang="scss">
