@@ -31,13 +31,13 @@
 </template>
 
 <script setup>
-import ButtonCodropsWapasha from './pages/home/components/sections/section-landing/components/button-codrops-wapasha.vue';
+
 </script>
 
 <style lang="scss">
 .section-landing {
   height: 100%;
-  background: url('/images/bg2.png') no-repeat center center fixed;
+  background: url('/images/bg21.png') no-repeat center center;
   background-size: cover;
 
   .absolute-content {
