@@ -12,6 +12,10 @@
     <SectionScreenShot :imgStyles="props.fight.imgStyles" :title="props.fight.title" :subTitle="props.fight.subTitle" :imgSrc="props.fight.imgSrc" />
   </div>
 
+  <div class="section-screenshots-container">
+    <SectionScreenShot :imgStyles="props.cityWalk.imgStyles" :title="props.cityWalk.title" :subTitle="props.cityWalk.subTitle" :imgSrc="props.cityWalk.imgSrc" />
+  </div>
+
 </template>
 
 <script setup>
@@ -28,6 +32,12 @@
       title: 'Unveil the shattered truth.',
       subTitle: 'Dragged into a fractured reality, you face relentless trials in a rogue-lite adventure where every run shapes your legend. Battle otherworldly forces, adapt, and rise—or be lost to the echoes of a crumbling world.',
       imgSrc: '/images/animation-fight.gif',
+      imgStyles: {border: '15px solid white'}
+    },
+    cityWalk: {
+      title: 'Unveil the shattered truth.',
+      subTitle: 'Dragged into a fractured reality, you face relentless trials in a rogue-lite adventure where every run shapes your legend. Battle otherworldly forces, adapt, and rise—or be lost to the echoes of a crumbling world.',
+      imgSrc: '/images/animation-city-walk.gif',
       imgStyles: {border: '15px solid white'}
     }
   }
