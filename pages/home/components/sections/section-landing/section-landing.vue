@@ -37,8 +37,9 @@
 <style lang="scss">
 .section-landing {
   height: 100%;
-  background: url('/images/bg22.png') no-repeat center center;
+  background: url('/images/bg23.png') no-repeat center center;
   background-size: cover;
+  overflow: auto;
 
   .absolute-content {
     position: absolute;
@@ -75,7 +76,7 @@
 
     .landing-action-start {
       background: url('/images/bg.png');
-      background-size: 1250px 1250px;
+      background-size: 1095px 950px;
       border: 2px solid #9f9f9f;;
       padding: 15px;
       width: -moz-fit-content;

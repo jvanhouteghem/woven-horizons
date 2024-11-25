@@ -14,5 +14,5 @@ export default defineNuxtConfig({
     highlight: {
       theme: 'light-plus'
     }
-  }
+  },
 })

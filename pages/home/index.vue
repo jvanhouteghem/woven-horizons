@@ -16,6 +16,14 @@
     <SectionScreenShot :containerStyles="props.cityWalk.containerStyles" :imgStyles="props.cityWalk.imgStyles" :title="props.cityWalk.title" :subTitle="props.cityWalk.subTitle" :imgSrc="props.cityWalk.imgSrc" />
   </div>
 
+  <div class="section-screenshots-container">
+    <SectionScreenShot :containerStyles="props.roguePath.containerStyles" :imgStyles="props.roguePath.imgStyles" :title="props.roguePath.title" :subTitle="props.roguePath.subTitle" :imgSrc="props.roguePath.imgSrc" />
+  </div>
+
+  <div class="section-screenshots-container">
+    <SectionScreenShot :containerStyles="props.dialogs.containerStyles" :imgStyles="props.dialogs.imgStyles" :title="props.dialogs.title" :subTitle="props.dialogs.subTitle" :imgSrc="props.dialogs.imgSrc" />
+  </div>
+
 </template>
 
 <script setup>
@@ -60,7 +68,21 @@
         backgroundColor: '#001724',
         padding: '0 0 85px 0'
       }
-    }
+    },
+    roguePath: {
+      title: 'Unveil the shattered truth.',
+      subTitle: 'Dragged into a fractured reality, you face relentless trials in a rogue-lite adventure where every run shapes your legend. Battle otherworldly forces, adapt, and rise—or be lost to the echoes of a crumbling world.',
+      imgSrc: '/images/animation-rogue-path.gif',
+      imgStyles: {
+        border: '15px solid white',
+        maxHeight: '60vh',
+      },
+      containerStyles: {
+        background: 'url("/images/bg23.png") no-repeat center center',
+        backgroundSize: '100% 100%',
+        padding: '185px 0'
+      }
+    },
   }
 
 </script>
@@ -68,10 +90,11 @@
 <style lang="scss" scoped>
   .section {
     height: 850px;
+    overflow: auto;
   }
 
   .section-screenshots-container {
-
+    overflow: auto;
   }
 
 </style>
