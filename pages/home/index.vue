@@ -39,7 +39,7 @@
       imgSrc: '/images/Animation.gif',
       containerStyles: {
         backgroundColor: '#0d181a',
-        padding: '0 0 85px 0'
+        padding: '85px 0;'
       }
     },
     fight: {
