@@ -90,11 +90,10 @@
 <style lang="scss" scoped>
   .section {
     height: 850px;
-    overflow: auto;
   }
 
   .section-screenshots-container {
-    overflow: auto;
+
   }
 
 </style>

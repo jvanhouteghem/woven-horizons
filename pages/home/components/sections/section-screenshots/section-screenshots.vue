@@ -2,7 +2,7 @@
 
   <div :style="containerStyles" class="section-screenshots">
     <div class="screenshot-title">
-      {{ title }}
+      <SectionTitle :value="title"></SectionTitle>
     </div>
     <div class="screenshot-paragraph">
       {{subTitle}}
@@ -13,6 +13,8 @@
 </template>
 
 <script setup lang="ts">
+  import SectionTitle from "/pages/home/components/title/section-title.vue";
+
   defineProps<{
     title?: string;
     subTitle?: string;
@@ -34,11 +36,11 @@
     gap: 40px;
 
     .screenshot-title {
-      color: white;
+      /*color: white;
       font-size: 80px;
       font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
       font-weight: bold;
-      text-transform: uppercase;
+      text-transform: uppercase;*/
     }
 
     .screenshot-paragraph {
@@ -47,10 +49,18 @@
       text-align: justify;
       color: white;
       width: 50vw;
+
+      @media (max-width: 1250px) {
+        width: 80vw;
+      }
     }
 
     .screenshot-img {
       width: 60vw;
+
+      @media (max-width: 1250px) {
+        width: 80vw;
+      }
     }
   }
 

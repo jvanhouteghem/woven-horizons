@@ -5,10 +5,10 @@
 
       <div class="landing-titles">
         <div class="landing-title">
-          Unveil the
+          <SectionTitle :value="'Unveil the'"></SectionTitle>
         </div>
         <div class="landing-title">
-          shattered truth.
+          <SectionTitle :value="'shattered truth.'"></SectionTitle>
         </div>
       </div>
 
@@ -32,6 +32,7 @@
 
 <script setup>
 
+import SectionTitle from "/pages/home/components/title/section-title.vue";
 </script>
 
 <style lang="scss">
@@ -39,16 +40,21 @@
   height: 100%;
   background: url('/images/bg23.png') no-repeat center center;
   background-size: cover;
-  overflow: auto;
+  // overflow: auto;
+  // position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
 
   .absolute-content {
-    position: absolute;
-    top: 180px;
-    left: 180px;
-
     display: flex;
     flex-direction: column;
     gap: 35px;
+
+    width: 100%;
+    padding: 0 10%;
 
     .landing-titles {
       display: flex;
@@ -56,18 +62,19 @@
       gap: 1px;
 
       .landing-title {
-        color: white;
+        /*color: white;
         font-size: 80px;
         font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         font-weight: bold;
         letter-spacing: -2px;
         line-height: 75px;
-        text-transform: uppercase;
+        text-transform: uppercase;*/
       }
     }
 
     .landing-paragraph {
-      width: 628px;
+      max-width: 628px;
+      width: 100%;
       color: white;
       font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
       display: flex;
