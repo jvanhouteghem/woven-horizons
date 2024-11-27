@@ -22,7 +22,7 @@ const docPath = `${slug}`;
   display: flex;
   justify-content: center;
 
-  background: url('/images/bg-forest-blurred.png') no-repeat center center fixed;
+  background: url('/images/bg-forest-blurred.webp') no-repeat center center fixed;
   background-size: cover;
 
   .article-container {

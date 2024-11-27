@@ -7,7 +7,7 @@
     <div class="screenshot-paragraph">
       {{subTitle}}
     </div>
-    <img :style="imgStyles" class="screenshot-img" :src="imgSrc" />
+    <img :style="imgStyles" class="screenshot-img" :src="imgSrc" loading="lazy" />
   </div>
 
 </template>

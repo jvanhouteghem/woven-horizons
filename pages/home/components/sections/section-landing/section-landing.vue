@@ -38,7 +38,7 @@ import SectionTitle from "/pages/home/components/title/section-title.vue";
 <style lang="scss">
 .section-landing {
   height: 100%;
-  background: url('/images/bg-ruins-blurred.png') no-repeat center center;
+  background: url('/images/bg-ruins-blurred.webp') no-repeat center center;
   background-size: cover;
   // overflow: auto;
   // position: relative;
@@ -83,7 +83,7 @@ import SectionTitle from "/pages/home/components/title/section-title.vue";
     }
 
     .landing-action-start {
-      background: url('/images/bg-forest-blurred.png');
+      background: url('/images/bg-forest-blurred.webp');
       background-size: 1095px 950px;
       border: 2px solid #9f9f9f;;
       padding: 15px;
