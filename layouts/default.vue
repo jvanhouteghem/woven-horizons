@@ -44,7 +44,7 @@
 
       // todo component
       .header {
-        background-color: #282828;
+        background-color: #001523; // #282828;
         color: white;
 
         display: flex;
