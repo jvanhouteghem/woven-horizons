@@ -49,6 +49,7 @@
       text-align: justify;
       color: white;
       width: 50vw;
+      font-size: 18px;
 
       @media (max-width: 1250px) {
         width: 80vw;

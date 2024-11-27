@@ -38,7 +38,7 @@ import SectionTitle from "/pages/home/components/title/section-title.vue";
 <style lang="scss">
 .section-landing {
   height: 100%;
-  background: url('/images/bg23.png') no-repeat center center;
+  background: url('/images/bg-ruins-blurred.png') no-repeat center center;
   background-size: cover;
   // overflow: auto;
   // position: relative;
@@ -79,10 +79,11 @@ import SectionTitle from "/pages/home/components/title/section-title.vue";
       font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
       display: flex;
       text-align: justify;
+      font-size: 18px;
     }
 
     .landing-action-start {
-      background: url('/images/bg.png');
+      background: url('/images/bg-forest-blurred.png');
       background-size: 1095px 950px;
       border: 2px solid #9f9f9f;;
       padding: 15px;

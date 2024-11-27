@@ -4,24 +4,24 @@
     <SectionLanding></SectionLanding>
   </div>
 
+  <!-- dialogs -->
   <div class="section-screenshots-container">
     <SectionScreenShot :containerStyles="props.dialogs.containerStyles" :imgStyles="props.dialogs.imgStyles" :title="props.dialogs.title" :subTitle="props.dialogs.subTitle" :imgSrc="props.dialogs.imgSrc" />
   </div>
 
+  <!-- fight -->
   <div class="section-screenshots-container">
     <SectionScreenShot :containerStyles="props.fight.containerStyles" :imgStyles="props.fight.imgStyles" :title="props.fight.title" :subTitle="props.fight.subTitle" :imgSrc="props.fight.imgSrc" />
   </div>
 
+  <!-- city -->
   <div class="section-screenshots-container">
     <SectionScreenShot :containerStyles="props.cityWalk.containerStyles" :imgStyles="props.cityWalk.imgStyles" :title="props.cityWalk.title" :subTitle="props.cityWalk.subTitle" :imgSrc="props.cityWalk.imgSrc" />
   </div>
 
+  <!-- rogue -->
   <div class="section-screenshots-container">
     <SectionScreenShot :containerStyles="props.roguePath.containerStyles" :imgStyles="props.roguePath.imgStyles" :title="props.roguePath.title" :subTitle="props.roguePath.subTitle" :imgSrc="props.roguePath.imgSrc" />
-  </div>
-
-  <div class="section-screenshots-container">
-    <SectionScreenShot :containerStyles="props.dialogs.containerStyles" :imgStyles="props.dialogs.imgStyles" :title="props.dialogs.title" :subTitle="props.dialogs.subTitle" :imgSrc="props.dialogs.imgSrc" />
   </div>
 
 </template>
@@ -34,31 +34,31 @@
   // #001724
   const props = {
     dialogs: {
-      title: 'Unveil the shattered truth.',
-      subTitle: 'Dragged into a fractured reality, you face relentless trials in a rogue-lite adventure where every run shapes your legend. Battle otherworldly forces, adapt, and rise—or be lost to the echoes of a crumbling world.',
-      imgSrc: '/images/Animation.gif',
+      title: 'Recruit your Ultimate Team',
+      subTitle: `Step into a roguelite where every encounter matters. Engage in meaningful dialogues, unlock cinematic moments, and recruit a diverse cast of characters to join your adventure. Your choices shape your team and your destiny: forge powerful bonds, face epic battles, and uncover the secrets of a world full of surprises. Will you rise to the challenge and create your legend?`,
+      imgSrc: '/images/animation-dialog.gif',
       containerStyles: {
         backgroundColor: '#0d181a',
         padding: '85px 0;'
       }
     },
     fight: {
-      title: 'Unveil the shattered truth.',
-      subTitle: 'Dragged into a fractured reality, you face relentless trials in a rogue-lite adventure where every run shapes your legend. Battle otherworldly forces, adapt, and rise—or be lost to the echoes of a crumbling world.',
+      title: 'Strategy Above All',
+      subTitle: `In this turn-based combat mode, there's no room for improvisation. Each turn is a puzzle where every decision matters. Analyze the situation, plan your moves, and exploit your enemies' weaknesses with precise tactics. Master the strategy to lead your team to victory!`,
       imgSrc: '/images/animation-fight.gif',
       imgStyles: {
         border: '15px solid white',
         maxHeight: '60vh',
       },
       containerStyles: {
-        background: 'url("/images/bg.png") no-repeat center center',
+        background: 'url("/images/bg-forest-blurred.png") no-repeat center center',
         backgroundSize: '100% 100%',
         padding: '185px 0'
       }
     },
     cityWalk: {
-      title: 'Unveil the shattered truth.',
-      subTitle: 'Dragged into a fractured reality, you face relentless trials in a rogue-lite adventure where every run shapes your legend. Battle otherworldly forces, adapt, and rise—or be lost to the echoes of a crumbling world.',
+      title: 'Clairval: The Lost Village',
+      subTitle: 'Explore a lively town, a forgotten crossroads of destinies, inhabited by NPCs with deep stories, merchants offering rare artifacts, and mysterious events that reshape your journey with every playthrough.',
       imgSrc: '/images/animation-city-walk.gif',
       imgStyles: {
         border: '15px solid white',

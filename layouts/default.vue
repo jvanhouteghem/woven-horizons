@@ -48,7 +48,7 @@
         color: white;
 
         display: flex;
-
+        flex-wrap: wrap;
         padding: 0 35px;
 
         .page-title {
@@ -88,6 +88,7 @@
           display: flex;
           justify-content: space-around;
           flex: 1;
+          flex-wrap: wrap;
           .link {
             font-family: 'Open Sans', sans-serif;
             text-transform: uppercase;
