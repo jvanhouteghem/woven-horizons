@@ -1,6 +1,6 @@
 <template>
   <div :style="styles" class="logo-container">
-    <img class="logo" alt="logo" src="/images/sword-Photoroom.png" />
+<!--    <img class="logo" alt="logo" src="/images/sword-Photoroom.png" />-->
     <div class="title">
       <div class="title-above">Woven</div>
       <div class="title-under">Horizons</div>
