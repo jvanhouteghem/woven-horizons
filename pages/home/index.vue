@@ -70,8 +70,8 @@
       }
     },
     roguePath: {
-      title: 'Unveil the shattered truth.',
-      subTitle: 'Dragged into a fractured reality, you face relentless trials in a rogue-lite adventure where every run shapes your legend. Battle otherworldly forces, adapt, and rise—or be lost to the echoes of a crumbling world.',
+      title: 'At the Crossroads of Choices',
+      subTitle: 'Battle, encounter, mini-game, or reward? Each path holds an opportunity... or a danger. Your destiny lies in your hands.',
       imgSrc: '/images/animation-rogue-path.webp',
       imgStyles: {
         border: '15px solid white',
