@@ -23,25 +23,25 @@
         </div>
 
         <div class="langs">
-          <div class="lang"> <!-- todo selected class -->
+          <div :class="{ selected: 'fr' === currentLocale }" class="lang"> <!-- todo selected class -->
             <NuxtLink :to="switchLocalePath('fr')">
               <img src="/images/flags/France.png" />
             </NuxtLink>
           </div>
 
-          <div class="lang">
+          <div :class="{ selected: 'en' === currentLocale }" class="lang">
             <NuxtLink :to="switchLocalePath('en')">
               <img src="/images/flags/United_Kingdom.png" />
             </NuxtLink>
           </div>
 
-          <div class="lang">
+          <div :class="{ selected: 'es' === currentLocale }" class="lang">
             <NuxtLink :to="switchLocalePath('es')">
               <img src="/images/flags/Spain.png" />
             </NuxtLink>
           </div>
 
-          <div class="lang">
+          <div :class="{ selected: 'de' === currentLocale }" class="lang">
             <NuxtLink :to="switchLocalePath('de')">
               <img src="/images/flags/Germany.png" />
             </NuxtLink>
@@ -79,7 +79,19 @@ const links = [
     label: 'FAQ',
     route: '/faq'
   }
-]
+];
+
+import { useI18n } from 'vue-i18n';
+
+// Obtenez les détails de la langue active
+const { locale, availableLocales } = useI18n();
+
+const locales = availableLocales.map(code => ({
+  code,
+  name: code.toUpperCase() // Vous pouvez personnaliser les noms ici
+}));
+
+const currentLocale = locale; // La langue actuellement activ
 
 </script>
 
