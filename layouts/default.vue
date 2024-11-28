@@ -24,16 +24,27 @@
 
         <div class="langs">
           <div class="lang selected">
-            <img src="/images/flags/France.png" />
+            <NuxtLink :to="switchLocalePath('fr')">
+              <img src="/images/flags/France.png" />
+            </NuxtLink>
           </div>
+
           <div class="lang">
-            <img src="/images/flags/United_Kingdom.png" />
+            <NuxtLink :to="switchLocalePath('en')">
+              <img src="/images/flags/United_Kingdom.png" />
+            </NuxtLink>
           </div>
+
           <div class="lang">
-            <img src="/images/flags/Spain.png" />
+            <NuxtLink :to="switchLocalePath('es')">
+              <img src="/images/flags/Spain.png" />
+            </NuxtLink>
           </div>
+
           <div class="lang">
-            <img src="/images/flags/Germany.png" />
+            <NuxtLink :to="switchLocalePath('de')">
+              <img src="/images/flags/Germany.png" />
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -49,6 +60,10 @@
 </template>
 
 <script setup>
+/*import { useI18n, useLocalePath } from '#imports'
+const { setLocale } = useI18n()*/
+
+const switchLocalePath = useSwitchLocalePath()
 
 const router = useRouter();
 const links = [

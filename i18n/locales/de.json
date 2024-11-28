@@ -1,0 +1,60 @@
+{
+  "helloWorld": "de Hallo Welt",
+  "landing": {
+    "title_part1": "Entdecke die",
+    "title_part2": "zerbrochene Wahrheit.",
+    "tags": "Roguelite - Strategisches RPG im Rundentakt - Tiefgehende Strategie - Pixel-Art ✨",
+    "description": "Eingetaucht in eine zerbrochene Realität, stellst du dich unaufhörlichen Prüfungen in einem Roguelite-Abenteuer, bei dem jeder Versuch deine Legende formt. Kämpfe gegen übernatürliche Kräfte, passe dich an und triumphiere – oder gehe im Echo einer Welt in Trümmern verloren.",
+    "action_start": "STARTEN",
+    "dialogs": {
+      "title": "Rekrutiere dein ultimates Team",
+      "subTitle": "Tauche ein in ein Roguelite, in dem jedes Treffen zählt. Führe bedeutungsvolle Dialoge, schalte cinematographische Momente frei und rekrutiere ein vielfältiges Team für dein Abenteuer. Deine Entscheidungen prägen dein Team und dein Schicksal: Schmiede mächtige Verbindungen, kämpfe epische Schlachten und entdecke die Geheimnisse einer Welt voller Überraschungen. Wirst du die Herausforderung annehmen und deine Legende erschaffen?",
+      "imgSrc": "/images/animation-dialog.webp",
+      "containerStyles": {
+        "backgroundColor": "#0d181a",
+        "padding": "85px 0;"
+      }
+    },
+    "fight": {
+      "title": "Strategie ist alles",
+      "subTitle": "In diesem rundenbasierten Kampfmuster gibt es keinen Platz für Improvisation. Jede Runde ist ein Rätsel, in dem jede Entscheidung zählt. Analysiere die Situation, plane deine Aktionen und nutze die Schwächen deiner Feinde mit präzisen Taktiken aus. Beherrsche die Strategie, um dein Team zum Sieg zu führen!",
+      "imgSrc": "/images/animation-fight.webp",
+      "imgStyles": {
+        "border": "15px solid white",
+        "maxHeight": "60vh"
+      },
+      "containerStyles": {
+        "background": "url(\"/images/bg-forest-blurred.webp\") no-repeat center center",
+        "backgroundSize": "100% 100%",
+        "padding": "185px 0"
+      }
+    },
+    "cityWalk": {
+      "title": "Clairval: Das verlorene Dorf",
+      "subTitle": "Erkunde eine lebendige Stadt, einen vergessenen Knotenpunkt der Schicksale, bewohnt von NPCs mit tiefgründigen Geschichten, Händlern, die seltene Artefakte anbieten, und mysteriösen Ereignissen, die dein Abenteuer bei jeder Runde verändern.",
+      "imgSrc": "/images/animation-city-walk.webp",
+      "imgStyles": {
+        "border": "15px solid white",
+        "maxHeight": "60vh"
+      },
+      "containerStyles": {
+        "backgroundColor": "#001724",
+        "padding": "0 0 85px 0"
+      }
+    },
+    "roguePath": {
+      "title": "An der Kreuzung der Entscheidungen",
+      "subTitle": "Kampf, Begegnung, Minispiel oder Belohnung? Jeder Weg birgt eine Chance... oder eine Gefahr. Dein Schicksal liegt in deinen Händen.",
+      "imgSrc": "/images/animation-rogue-path.webp",
+      "imgStyles": {
+        "border": "15px solid white",
+        "maxHeight": "60vh"
+      },
+      "containerStyles": {
+        "background": "url(\"/images/bg-ruins-blurred.webp\") no-repeat center center",
+        "backgroundSize": "100% 100%",
+        "padding": "185px 0"
+      }
+    }
+  }
+}

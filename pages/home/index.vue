@@ -6,22 +6,22 @@
 
   <!-- dialogs -->
   <div class="section-screenshots-container">
-    <SectionScreenShot :containerStyles="props.dialogs.containerStyles" :imgStyles="props.dialogs.imgStyles" :title="props.dialogs.title" :subTitle="props.dialogs.subTitle" :imgSrc="props.dialogs.imgSrc" />
+    <SectionScreenShot :containerStyles="props.dialogs.containerStyles" :imgStyles="props.dialogs.imgStyles" :title="$t('landing.dialogs.title')" :subTitle="$t('landing.dialogs.subTitle')" :imgSrc="props.dialogs.imgSrc" />
   </div>
 
   <!-- fight -->
   <div class="section-screenshots-container">
-    <SectionScreenShot :containerStyles="props.fight.containerStyles" :imgStyles="props.fight.imgStyles" :title="props.fight.title" :subTitle="props.fight.subTitle" :imgSrc="props.fight.imgSrc" />
+    <SectionScreenShot :containerStyles="props.fight.containerStyles" :imgStyles="props.fight.imgStyles" :title="$t('landing.fight.title')" :subTitle="$t('landing.fight.subTitle')" :imgSrc="props.fight.imgSrc" />
   </div>
 
   <!-- city -->
   <div class="section-screenshots-container">
-    <SectionScreenShot :containerStyles="props.cityWalk.containerStyles" :imgStyles="props.cityWalk.imgStyles" :title="props.cityWalk.title" :subTitle="props.cityWalk.subTitle" :imgSrc="props.cityWalk.imgSrc" />
+    <SectionScreenShot :containerStyles="props.cityWalk.containerStyles" :imgStyles="props.cityWalk.imgStyles" :title="$t('landing.cityWalk.title')" :subTitle="$t('landing.cityWalk.subTitle')" :imgSrc="props.cityWalk.imgSrc" />
   </div>
 
   <!-- rogue -->
   <div class="section-screenshots-container">
-    <SectionScreenShot :containerStyles="props.roguePath.containerStyles" :imgStyles="props.roguePath.imgStyles" :title="props.roguePath.title" :subTitle="props.roguePath.subTitle" :imgSrc="props.roguePath.imgSrc" />
+    <SectionScreenShot :containerStyles="props.roguePath.containerStyles" :imgStyles="props.roguePath.imgStyles" :title="$t('landing.roguePath.title')" :subTitle="$t('landing.roguePath.subTitle')" :imgSrc="props.roguePath.imgSrc" />
   </div>
 
   <!-- and more -->

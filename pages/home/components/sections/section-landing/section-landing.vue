@@ -5,24 +5,23 @@
 
       <div class="landing-titles">
         <div class="landing-title">
-          <SectionTitle :value="'Unveil the'"></SectionTitle>
+          <SectionTitle :value="$t('landing.title_part1')"></SectionTitle>
         </div>
         <div class="landing-title">
-          <SectionTitle :value="'shattered truth.'"></SectionTitle>
+          <SectionTitle :value="$t('landing.title_part2')"></SectionTitle>
         </div>
       </div>
 
       <div class="landing-paragraph">
-        <b>Roguelite - Challenging turn base RPG - Deep strategy - Pixel art ✨</b>
+        <b>{{ $t("landing.tags") }}</b>
       </div>
 
       <div class="landing-paragraph">
-        Dragged into a fractured reality, you face relentless trials in a rogue-lite adventure where every run shapes your legend. Battle otherworldly forces, adapt, and rise—or be lost to the echoes of a crumbling world.
+        {{ $t("landing.description") }}
       </div>
 
       <div class="landing-action-start">
-        <!-- <ButtonCodropsWapasha />-->
-        GET STARTED
+        {{ $t("landing.action_start") }}
       </div>
 
       <div class="rooster">
