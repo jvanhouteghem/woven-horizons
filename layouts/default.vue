@@ -10,8 +10,8 @@
           <!-- <img class="page-title-img" src="/images/sword-small.png" />-->
         </div>
         <div class="inner-links">
-          <div v-for="link in ['Home', 'Blog', 'FAQ']" class="link">
-            {{link}}
+          <div v-for="link in links" class="link">
+            <NuxtLink :to="link.route">{{link.label}}</NuxtLink>
           </div>
         </div>
 
@@ -31,6 +31,22 @@
 </template>
 
 <script setup>
+
+const router = useRouter();
+const links = [
+  {
+    label: 'Home',
+    route: '/home'
+  },
+  {
+    label: 'Blog',
+    route: '/blog'
+  },
+  {
+    label: 'FAQ',
+    route: '/faq'
+  }
+]
 
 </script>
 

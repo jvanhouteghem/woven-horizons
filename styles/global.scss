@@ -9,3 +9,12 @@ body {
   margin: 0;
   background-color: #0d181a;
 }
+
+a {
+  all: unset;
+
+  &:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+}

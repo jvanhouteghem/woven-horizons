@@ -24,6 +24,11 @@
     <SectionScreenShot :containerStyles="props.roguePath.containerStyles" :imgStyles="props.roguePath.imgStyles" :title="props.roguePath.title" :subTitle="props.roguePath.subTitle" :imgSrc="props.roguePath.imgSrc" />
   </div>
 
+  <!-- and more -->
+<!--  <div class="section-more-screenshots">
+    <SectionScreenShot :containerStyles="props.roguePath.containerStyles" :imgStyles="props.roguePath.imgStyles" :title="props.roguePath.title" :subTitle="props.roguePath.subTitle" :imgSrc="props.roguePath.imgSrc" />
+  </div>-->
+
 </template>
 
 <script setup>
