@@ -23,7 +23,7 @@
         </div>
 
         <div class="langs">
-          <div class="lang selected">
+          <div class="lang"> <!-- todo selected class -->
             <NuxtLink :to="switchLocalePath('fr')">
               <img src="/images/flags/France.png" />
             </NuxtLink>
