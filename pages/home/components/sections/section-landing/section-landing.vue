@@ -76,7 +76,7 @@ import SectionTitle from "/pages/home/components/title/section-title.vue";
     }
 
     .landing-paragraph {
-      max-width: 628px;
+      max-width: 680px;
       width: 100%;
       color: white;
       font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
