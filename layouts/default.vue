@@ -21,6 +21,15 @@
         <div class="social-links">
 
         </div>
+
+        <div class="langs">
+          <div class="lang selected">
+            <img src="/images/flags/France.png" />
+          </div>
+          <div class="lang">
+            <img src="/images/flags/United_Kingdom.png" />
+          </div>
+        </div>
       </div>
 
     </div>
@@ -129,6 +138,22 @@ const links = [
         }
         .social-links {
           flex: 2;
+        }
+        .langs {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin-right: 5%;
+          .lang {
+            filter: brightness(0.5);
+            &:hover {
+              cursor: pointer;
+              opacity: 0.9;
+            }
+            &.selected {
+              filter: brightness(1);
+            }
+          }
         }
       }
 
