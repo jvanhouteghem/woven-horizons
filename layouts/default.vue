@@ -6,7 +6,10 @@
 
       <div class="header">
         <div class="page-title">
-          <div class="page-title-label">Woven Horizons</div>
+          <div class="page-title-label">
+            Woven Horizons
+            <img style="margin: 0 0 3px 0;" src="/images/icon381.png">
+          </div>
           <!-- <img class="page-title-img" src="/images/sword-small.png" />-->
         </div>
         <div class="inner-links">
@@ -77,9 +80,16 @@ const links = [
             font-size: 18px;
             position: absolute;
             z-index: 1;
-            $outline: 2px;
-            $outline-color: black;
-            text-shadow: -$outline -$outline 0 $outline-color, $outline -$outline 0 $outline-color, -$outline $outline 0 $outline-color, $outline $outline 0 $outline-color;
+            // $outline: 2px;
+            // $outline-color: yellow;
+            // text-shadow: -$outline - $outline 0 $outline-color, $outline - $outline 0 $outline-color, -$outline $outline 0 $outline-color, $outline $outline 0 $outline-color;
+
+            display: flex
+          ;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+
           }
 
           .page-title-img {
