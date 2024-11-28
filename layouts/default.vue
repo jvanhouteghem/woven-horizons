@@ -29,6 +29,12 @@
           <div class="lang">
             <img src="/images/flags/United_Kingdom.png" />
           </div>
+          <div class="lang">
+            <img src="/images/flags/Spain.png" />
+          </div>
+          <div class="lang">
+            <img src="/images/flags/Germany.png" />
+          </div>
         </div>
       </div>
 
