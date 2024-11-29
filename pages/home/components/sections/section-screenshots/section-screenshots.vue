@@ -8,17 +8,51 @@
       {{subTitle}}
     </div>
     <div class="screenshots">
-      <img class="screenshots-img" src="/images/animation-overlay-choice2.webp" loading="lazy" />
-      <img class="screenshots-img" src="/images/animation-skills.webp" loading="lazy" />
-      <img class="screenshots-img" src="/images/animation-shop.webp" loading="lazy" />
+      <div class="screenshots-item">
+        <img class="screenshots-img" src="/images/animation-overlay-choice2.webp" loading="lazy" />
+        <div class="screenshots-label">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        </div>
+      </div>
+
+      <div class="screenshots-item">
+        <img class="screenshots-img" src="/images/animation-skills.webp" loading="lazy" />
+        <div class="screenshots-label">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        </div>
+      </div>
+
+      <div class="screenshots-item">
+        <img class="screenshots-img" src="/images/animation-shop.webp" loading="lazy" />
+        <div class="screenshots-label">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        </div>
+      </div>
     </div>
 
     <div class="screenshots">
-      <img class="screenshots-img" src="/images/animation-resume-team.webp" loading="lazy" />
-      <img class="screenshots-img" src="/images/animation-saving.gif" loading="lazy" />
-      <div class="screenshots-img and-more">
-        {{ more }}
+      <div class="screenshots-item">
+        <img class="screenshots-img" src="/images/animation-resume-team.webp" loading="lazy" />
+        <div class="screenshots-label">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        </div>
       </div>
+
+      <div class="screenshots-item">
+        <img class="screenshots-img" src="/images/animation-saving.gif" loading="lazy" />
+        <div class="screenshots-label">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        </div>
+      </div>
+
+      <div class="screenshots-item">
+        <div class="screenshots-img and-more">
+          {{ more }}
+        </div>
+      </div>
+
+
+
     </div>
 
   </div>
@@ -92,7 +126,7 @@
           justify-content: center;
           align-items: center;
           border: 3px inset white;
-          height: 230px;
+          height: 265px;
         }
       }
 
@@ -101,6 +135,19 @@
         .screenshots-img {
           width: 60vw;
         }
+      }
+    }
+
+    .screenshots-item {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      .screenshots-label {
+        color: white;
+        font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
       }
     }
 

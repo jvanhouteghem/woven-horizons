@@ -19,7 +19,11 @@
         </div>
 
         <div class="social-links">
-
+          <img @click="() => openLink('https://x.com/RoazhonGame')" class="social-link-img" src="/images/socialmedia/twitter.png" />
+          <img @click="() => openLink('https://www.instagram.com/roazhongame/')" class="social-link-img" src="/images/socialmedia/instagram.png" />
+          <img @click="() => openLink('https://www.facebook.com/profile.php?id=61553399873161')" class="social-link-img" src="/images/socialmedia/fb.png" />
+          <img @click="() => openLink('https://www.youtube.com/@roazhongame')" class="social-link-img" src="/images/socialmedia/youtube.png" />
+          <img @click="() => openLink('https://discord.gg/B4VP4aWT')" class="social-link-img" src="/images/socialmedia/discord.png" />
         </div>
 
         <div class="langs">
@@ -92,6 +96,10 @@ const locales = availableLocales.map(code => ({
 }));
 
 const currentLocale = locale; // La langue actuellement activ
+
+function openLink(url) {
+  window.open(url, "_blank");
+}
 
 </script>
 
@@ -171,6 +179,15 @@ const currentLocale = locale; // La langue actuellement activ
         }
         .social-links {
           flex: 2;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+
+          .social-link-img {
+            width: 25px;
+            height: 25px;
+          }
         }
         .langs {
           display: flex;
