@@ -187,6 +187,10 @@ function openLink(url) {
           .social-link-img {
             width: 25px;
             height: 25px;
+            &:hover {
+              cursor: pointer;
+              opacity: 0.9;
+            }
           }
         }
         .langs {
