@@ -55,6 +55,11 @@
         "backgroundSize": "100% 100%",
         "padding": "185px 0"
       }
+    },
+    "andMore": {
+      "title": "Other content to discover",
+      "subtitle": "This is just the beginning. Mysteries to uncover, challenges to face, and many more secrets await. Will you go all the way?",
+      "more": "And more"
     }
   }
 }

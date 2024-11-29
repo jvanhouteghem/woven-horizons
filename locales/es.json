@@ -55,6 +55,11 @@
         "backgroundSize": "100% 100%",
         "padding": "185px 0"
       }
+    },
+    "andMore": {
+      "title": "Otros contenidos para descubrir",
+      "subtitle": "Esto es solo el comienzo. Misterios por descubrir, desafíos por enfrentar y muchos más secretos aguardan. ¿Serás capaz de llegar hasta el final?",
+      "more": "Y más aún"
     }
   }
 }

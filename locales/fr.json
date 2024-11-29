@@ -55,6 +55,11 @@
         "backgroundSize": "100% 100%",
         "padding": "185px 0"
       }
+    },
+    "andMore": {
+      "title": "D'autres contenus à découvrir",
+      "subtitle": "Ce n’est que le début. Des mystères à percer, des épreuves à affronter et bien d’autres secrets vous attendent. Saurez-vous aller jusqu’au bout ?",
+      "more": "Et plus encore",
     }
   }
 }

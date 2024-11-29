@@ -25,22 +25,21 @@
   </div>
 
   <!-- and more -->
-<!--  <div class="section-more-screenshots">
-    <SectionScreenShot :containerStyles="props.roguePath.containerStyles" :imgStyles="props.roguePath.imgStyles" :title="props.roguePath.title" :subTitle="props.roguePath.subTitle" :imgSrc="props.roguePath.imgSrc" />
-  </div>-->
+  <div class="section-more-screenshots">
+    <SectionScreenshots :containerStyles="props.andMore.containerStyles" :imgStyles="props.andMore.imgStyles" :title="$t('landing.andMore.title')" :more="$t('landing.andMore.more')" :subTitle="$t('landing.andMore.subtitle')" :imgSrc="props.andMore.imgSrc" />
+  </div>
 
 </template>
 
 <script setup>
   import SectionLanding from "/pages/home/components/sections/section-landing/section-landing.vue";
-  import SectionScreenShot from "/pages/home/components/sections/section-screenshots/section-screenshots.vue";
+  import SectionScreenShot from "/pages/home/components/sections/section-screenshot/section-screenshots.vue";
+  import SectionScreenshots from "/pages/home/components/sections/section-screenshots/section-screenshots.vue";
 
   // #041f2b
   // #001724
   const props = {
     dialogs: {
-      title: 'Recruit your Ultimate Team',
-      subTitle: `Step into a roguelite where every encounter matters. Engage in meaningful dialogues, unlock cinematic moments, and recruit a diverse cast of characters to join your adventure. Your choices shape your team and your destiny: forge powerful bonds, face epic battles, and uncover the secrets of a world full of surprises. Will you rise to the challenge and create your legend?`,
       imgSrc: '/images/animation-dialog.webp',
       containerStyles: {
         backgroundColor: '#0d181a',
@@ -48,8 +47,6 @@
       }
     },
     fight: {
-      title: 'Strategy Above All',
-      subTitle: `In this turn-based combat mode, there's no room for improvisation. Each turn is a puzzle where every decision matters. Analyze the situation, plan your moves, and exploit your enemies' weaknesses with precise tactics. Master the strategy to lead your team to victory!`,
       imgSrc: '/images/animation-fight.webp',
       imgStyles: {
         border: '15px solid white',
@@ -62,8 +59,6 @@
       }
     },
     cityWalk: {
-      title: 'Clairval: The Lost Village',
-      subTitle: 'Explore a lively town, a forgotten crossroads of destinies, inhabited by NPCs with deep stories, merchants offering rare artifacts, and mysterious events that reshape your journey with every playthrough.',
       imgSrc: '/images/animation-city-walk.webp',
       imgStyles: {
         border: '15px solid white',
@@ -75,8 +70,6 @@
       }
     },
     roguePath: {
-      title: 'At the Crossroads of Choices',
-      subTitle: 'Battle, encounter, mini-game, or reward? Each path holds an opportunity... or a danger. Your destiny lies in your hands.',
       imgSrc: '/images/animation-rogue-path.webp',
       imgStyles: {
         border: '15px solid white',
@@ -88,6 +81,12 @@
         padding: '185px 0'
       }
     },
+    andMore: {
+        containerStyles: {
+          backgroundColor: '#0d181a',
+          padding: '85px 0;'
+        }
+    }
   }
 
 </script>
@@ -99,6 +98,10 @@
 
   .section-screenshots-container {
 
+  }
+
+  .section-more-screenshots {
+    margin: 0 0 150px 0;
   }
 
 </style>

@@ -55,6 +55,11 @@
         "backgroundSize": "100% 100%",
         "padding": "185px 0"
       }
+    },
+    "andMore": {
+      "title": "Weitere Inhalte zu entdecken",
+      "subtitle": "Das ist erst der Anfang. Geheimnisse zu entschlüsseln, Herausforderungen zu meistern und viele weitere Geheimnisse erwarten dich. Wirst du bis zum Ende gehen?",
+      "more": "Und noch mehr"
     }
   }
 }

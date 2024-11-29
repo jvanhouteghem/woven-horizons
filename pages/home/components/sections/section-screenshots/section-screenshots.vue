@@ -7,7 +7,20 @@
     <div class="screenshot-paragraph">
       {{subTitle}}
     </div>
-    <img :style="imgStyles" class="screenshot-img" :src="imgSrc" loading="lazy" />
+    <div class="screenshots">
+      <img class="screenshots-img" src="/images/animation-overlay-choice2.webp" loading="lazy" />
+      <img class="screenshots-img" src="/images/animation-skills.webp" loading="lazy" />
+      <img class="screenshots-img" src="/images/animation-shop.webp" loading="lazy" />
+    </div>
+
+    <div class="screenshots">
+      <img class="screenshots-img" src="/images/animation-resume-team.webp" loading="lazy" />
+      <img class="screenshots-img" src="/images/animation-saving.gif" loading="lazy" />
+      <div class="screenshots-img and-more">
+        {{ more }}
+      </div>
+    </div>
+
   </div>
 
 </template>
@@ -21,6 +34,7 @@
     imgSrc?: string;
     imgStyles?: Object;
     containerStyles?: Object;
+    more?: string;
   }>()
 </script>
 
@@ -56,13 +70,41 @@
       }
     }
 
-    .screenshot-img {
+    .screenshots {
       width: 60vw;
-
       @media (max-width: 1250px) {
         width: 80vw;
       }
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+
+      .screenshots-img {
+        width: 20vw;
+
+        &.and-more {
+          color: white;
+          font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+          font-size: 23px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 3px inset white;
+          height: 230px;
+        }
+      }
+
+      @media (max-width: 1250px) {
+        flex-direction: column;
+        .screenshots-img {
+          width: 60vw;
+        }
+      }
     }
+
+
   }
 
 </style>
