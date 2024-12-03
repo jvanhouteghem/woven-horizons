@@ -164,6 +164,9 @@
         display: flex;
         justify-content: center;
         width: 20vw;
+        @media (max-width: 1250px) {
+            width: unset;
+        }
       }
     }
 
