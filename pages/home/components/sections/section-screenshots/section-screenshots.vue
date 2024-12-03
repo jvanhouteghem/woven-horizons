@@ -32,7 +32,7 @@
 
     <div class="screenshots">
       <div class="screenshots-item">
-        <img class="screenshots-img" src="/images/animation-resume-team.webp" loading="lazy" />
+        <img class="screenshots-img" src="/images/new-attack-choose.png" loading="lazy" />
         <div class="screenshots-label">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
         </div>
@@ -46,12 +46,27 @@
       </div>
 
       <div class="screenshots-item">
+        <img class="screenshots-img" src="/images/upgrade-attack-choose.png" loading="lazy" />
+        <div class="screenshots-label">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        </div>
+      </div>
+
+    </div>
+
+    <div class="screenshots">
+      <div class="screenshots-item">
+        <img class="screenshots-img" src="/images/animation-resume-team.webp" loading="lazy" />
+        <div class="screenshots-label">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        </div>
+      </div>
+
+      <div class="screenshots-item">
         <div class="screenshots-img and-more">
           {{ more }}
         </div>
       </div>
-
-
 
     </div>
 
@@ -111,7 +126,7 @@
       }
 
       display: flex;
-      justify-content: space-between;
+      // justify-content: space-between;
       align-items: center;
       gap: 30px;
 
@@ -148,6 +163,7 @@
         font-size: 15px;
         display: flex;
         justify-content: center;
+        width: 20vw;
       }
     }
 
