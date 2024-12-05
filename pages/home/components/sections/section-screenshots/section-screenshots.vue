@@ -62,6 +62,14 @@
         </div>
       </div>
 
+      <div class="screenshots">
+        <div class="screenshots-item">
+          <img class="screenshots-img" src="/images/animation-select-profile.png" loading="lazy" />
+          <div class="screenshots-label">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+          </div>
+        </div>
+
       <div class="screenshots-item">
         <div class="screenshots-img and-more">
           {{ more }}
