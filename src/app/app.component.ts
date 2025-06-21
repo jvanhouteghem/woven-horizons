@@ -45,6 +45,19 @@ export class AppComponent implements OnInit {
   titleState = 'hidden';
   pressStartState = 'hidden';
 
+  // mobile
+  isMobile = false;
+
+  @HostListener('window:resize', [])
+  onResize() {
+    this.checkScreenSize();
+  }
+
+  checkScreenSize() {
+    this.isMobile = window.innerWidth <= 568; // ajuste selon ton seuil mobile préféré
+  }
+  //
+
   /*@HostListener('window:load')
   onLoad(): void {
     setTimeout(() => {
@@ -56,6 +69,7 @@ export class AppComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    this.checkScreenSize();
 
     setTimeout(() => {
       this.imageState = 'end'; // Déclenche l'animation au chargement
