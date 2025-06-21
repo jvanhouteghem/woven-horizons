@@ -1,0 +1,28 @@
+<div class="home-container img-background">
+
+  <div class="img-background-container">
+    <img class="layer layer-sky" [src]="'assets/images/home-clouds0.png'"/>
+    <div class="layer layer-clouds clouds-container">
+      <div class="clouds"></div>
+    </div>
+    <img class="layer layer-sky" [@moveImageSky]="imageState" [src]="'assets/images/bg_5_0004_layer_1.png'"/>
+    <img class="layer layer-tree" [@moveImageTree]="imageState" [src]="'assets/images/01.png'"/>
+    <div class="shine-effect">
+      <img class="layer layer-title" [@fadeInWithDelay]="titleState"  [src]="'assets/images/wh-title2.png'"/>
+    </div>
+
+  </div>
+
+  <div class="social-icons">
+    <!--<img (click)="openLink('https://x.com/RoazhonGame')" class="social-link-img" src="./assets/images/socialmedia/twitter.png" />
+    <img (click)="openLink('https://www.instagram.com/roazhongame/')" class="social-link-img" src="./assets/images/socialmedia/instagram.png" />
+    <img (click)="openLink('https://www.facebook.com/profile.php?id=61553399873161')" class="social-link-img" src="./assets/images/socialmedia/fb.png" />
+    <img (click)="openLink('https://www.youtube.com/@roazhongame')" class="social-link-img" src="./assets/images/socialmedia/youtube.png" />-->
+    <img (click)="openLink('https://discord.gg/EW8FhRYvjw')" class="social-link-img" src="./assets/images/discord.png" />
+  </div>
+
+  <!--<div class="version">
+    0.0.1
+  </div>-->
+
+</div>
