@@ -1,14 +1,14 @@
 import {Component, HostListener, OnInit} from '@angular/core';
-import { CommonModule } from '@angular/common';
-import {RouterModule, RouterOutlet} from '@angular/router';
+import {CommonModule} from "@angular/common";
+import {RouterModule, RouterOutlet} from "@angular/router";
 import {animate, state, style, transition, trigger} from "@angular/animations";
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-home',
   standalone: true,
   imports: [CommonModule, RouterOutlet, RouterModule],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  templateUrl: './home.component.html',
+  styleUrl: './home.component.scss',
   animations: [
     trigger('moveImageSky', [
       state('start', style({ left: '-95px' })),
@@ -40,7 +40,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
     ])
   ]
 })
-export class AppComponent implements OnInit {
+export class HomeComponent implements OnInit {
   imageState = 'start'; // Définit l'état initial de l'image
   titleState = 'hidden';
   pressStartState = 'hidden';
