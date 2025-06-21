@@ -1,5 +1,17 @@
 <div *ngIf="!isMobile" class="home-container img-background">
 
+  <div *ngIf="!showVideo && titleState === 'visible'" class="play-button-container" (click)="showVideo = true">
+    <div class="play-button">
+      <svg viewBox="0 0 100 100" class="icon">
+        <polygon points="35,25 75,50 35,75" fill="white" />
+      </svg>
+    </div>
+  </div>
+
+  <div *ngIf="showVideo" class="desktop-video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1ztWJrouT5M?si=pgnKom7kr__2g_Kd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
   <div class="img-background-container">
     <img class="layer layer-sky" [src]="'assets/images/home-clouds0.png'"/>
     <div class="layer layer-clouds clouds-container">
@@ -7,6 +19,7 @@
     </div>
     <img class="layer layer-sky" [@moveImageSky]="imageState" [src]="'assets/images/bg_5_0004_layer_1.png'"/>
     <img class="layer layer-tree" [@moveImageTree]="imageState" [src]="'assets/images/01.png'"/>
+
     <div class="shine-effect">
       <img class="layer layer-title" [@fadeInWithDelay]="titleState"  [src]="'assets/images/wh-title2.png'"/>
 
@@ -45,6 +58,10 @@
 <div class="mobile-container" *ngIf="isMobile">
   <img class="mobile-title" [src]="'assets/images/wh-title2.png'"/>
   <img class="mobile-bg" [src]="'assets/images/bg.png'"/>
+
+  <div class="mobile-video-container">
+    <iframe src="https://www.youtube.com/embed/1ztWJrouT5M?si=EzRk2IUJ1lxha1w5&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 
   <div class="actions">
     <div class="action">

@@ -48,6 +48,8 @@ export class AppComponent implements OnInit {
   // mobile
   isMobile = false;
 
+  showVideo = false;
+
   @HostListener('window:resize', [])
   onResize() {
     this.checkScreenSize();
