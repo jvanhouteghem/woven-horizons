@@ -1,1 +1,112 @@
-<p>presskit works!</p>
+<div class="presskit-page">
+
+  <div class="home-routing desktop" [routerLink]="['/']">
+    HOME
+  </div>
+
+
+  <img class="logo" [src]="'assets/images/1280_720.png'"/>
+
+    <div class="description-container">
+
+      <div class="description-left">
+        <div class="title-h2">
+          Factsheet
+        </div>
+
+        <div class="d-left-element">
+          <div class="title-h3">
+            Developer:
+          </div>
+          <div class="p-link">
+            Staelen
+          </div>
+        </div>
+
+        <div class="d-left-element">
+          <div class="title-h3">
+            Release date:
+          </div>
+          <div class="p-link">
+            Q4 2025
+          </div>
+        </div>
+
+        <div class="d-left-element">
+          <div class="title-h3">
+            Platforms:
+          </div>
+          <div class="p-link">
+            PC
+          </div>
+        </div>
+
+        <div class="d-left-element">
+          <div class="title-h3">
+            Regular Price:
+          </div>
+          <div class="p-link">
+            N/A
+          </div>
+        </div>
+
+      </div>
+
+      <div class="description-right">
+
+        <div class="description-right-element">
+          <div class="title-h2">
+            Description
+          </div>
+          <div class="p-content">
+            Woven Horizons is a tactical turn-based roguelite RPG. Build your team by recruiting up to 4 heroes from over 30, evolve your attacks, and create powerful synergies to progress through an epic chapter-based quest.
+          </div>
+        </div>
+
+        <div class="description-right-element">
+          <div class="title-h2">
+            Features
+          </div>
+          <div class="p-content">
+            N/A
+          </div>
+        </div>
+
+        <div class="description-right-element">
+          <div class="title-h2">
+            History
+          </div>
+          <div class="p-content">
+            N/A
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  <div class="videos-container">
+    <div class="title-h2">
+      Videos
+    </div>
+
+    <iframe
+      src="https://www.youtube.com/embed/1ztWJrouT5M?si=pgnKom7kr__2g_Kd"
+      title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="images-container">
+    <div class="title-h2">
+      Images
+    </div>
+
+    <div class="images-grid">
+      <img class="img-screenshot" *ngFor="let imgNumber of ['00','01','02','03','04','05','06','07','08','09',10,11,12,13,14,15,16,17,18]" [src]="'assets/images/screenshots/' + imgNumber + '.png'"/>
+    </div>
+  </div>
+
+</div>
