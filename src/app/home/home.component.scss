@@ -115,10 +115,10 @@
   }
 
   .layer-title {
-    width: 850px;
+    width: 1220px;
     height: auto;
     image-rendering: pixelated;
-    top: 85px;
+    top: 95px;
     max-width: 100%;
   }
 }
@@ -273,14 +273,16 @@
   align-items: center;
   gap: 4px;
 
+  font-size: 20px;
+
   &.mobile {
     font-size: 10px;
   }
 
   .soon {
     position: absolute;
-    top: 39px;
-    left: 16px;
+    top: 45px;
+    left: 15px;
     color: #eef0d5;
     filter: drop-shadow(2px 4px 6px black);
     background-color: #1b2838;
@@ -328,14 +330,16 @@
   gap: 6px;
   transition: background-color 0.3s ease, transform 0.2s ease;
 
+  font-size: 20px;
+
   &.mobile {
     font-size: 10px;
   }
 
   .soon {
     position: absolute;
-    top: 40px;
-    left: 43px;
+    top: 45px;
+    left: 48px;
     color: #eef0d5;
     filter: drop-shadow(2px 4px 6px black);
     background-color: #1b2838;
@@ -410,6 +414,7 @@
 
   .mobile-bg {
     width: 1200px;
+    height: 100vh;
     position: absolute;
   }
 
