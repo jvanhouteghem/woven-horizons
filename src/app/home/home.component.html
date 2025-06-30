@@ -5,7 +5,8 @@
     PRESS KIT
   </div>
 
-  <div *ngIf="!showVideo && titleState === 'visible'" class="play-button-container" (click)="showVideo = true">
+  <!--uncomment when video released -->
+  <!--<div *ngIf="!showVideo && titleState === 'visible'" class="play-button-container" (click)="showVideo = true">
     <div class="play-button">
       <svg viewBox="0 0 100 100" class="icon">
         <polygon points="35,25 75,50 35,75" fill="white" />
@@ -15,7 +16,7 @@
 
   <div *ngIf="showVideo" class="desktop-video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/1ztWJrouT5M?si=pgnKom7kr__2g_Kd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
+  </div>-->
 
   <div class="img-background-container">
     <img class="layer layer-sky" [src]="'assets/images/home-clouds0.png'"/>
