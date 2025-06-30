@@ -260,6 +260,7 @@
 }
 
 .kickstarter-button {
+  position: relative;
   border: 2px solid white;
   background-color: #05ce78;
   padding: 13px 26px;
@@ -271,16 +272,41 @@
   display: inline-flex;
   align-items: center;
   gap: 4px;
+
+  &.mobile {
+    font-size: 10px;
+  }
+
+  .soon {
+    position: absolute;
+    top: 39px;
+    left: 16px;
+    color: #eef0d5;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: #1b2838;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: max-content;
+
+    &.mobile {
+      top: 30px;
+      left: 16px;
+    }
+  }
+
 }
 
 .kick-text {
   color: black;
   font-weight: bold;
+  text-decoration: line-through;
 }
 
 .starter-text {
   color: white;
   font-weight: bold;
+  text-decoration: line-through;
 }
 
 .kickstarter-button:hover {
@@ -288,6 +314,7 @@
 }
 
 .steam-button {
+  position: relative;
   background-color: #1b2838;
   border: 2px solid #76a720;;
   border-radius: 8px;
@@ -301,6 +328,28 @@
   gap: 6px;
   transition: background-color 0.3s ease, transform 0.2s ease;
 
+  &.mobile {
+    font-size: 10px;
+  }
+
+  .soon {
+    position: absolute;
+    top: 40px;
+    left: 43px;
+    color: #eef0d5;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: #1b2838;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+
+    &.mobile {
+      top: 30px;
+      left: 34px;
+    }
+  }
+
+
   &:hover {
     background-color: #171f2a;
     transform: scale(1.05);
@@ -308,10 +357,12 @@
 
   .text {
     color: white;
+    text-decoration: line-through;
   }
 
   .steam {
     color: #76a720; // Entire "STEAM" in Steam green
+    text-decoration: line-through;
   }
 }
 
@@ -326,6 +377,7 @@
     width: 100%;
     position: absolute;
     z-index: 6;
+    overflow: auto;
 
     display: flex;
     align-items: center;
@@ -347,7 +399,7 @@
     margin: 15px 0 0 0;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 35px;
     align-items: center;
   }
 
