@@ -9,5 +9,9 @@ export const routes: Routes = [
   {
     path: 'presskit',
     loadComponent: () => import('./presskit/presskit.component').then(m => m.PresskitComponent)
+  },
+  {
+    path: '**',
+    redirectTo: '',
   }
 ];
